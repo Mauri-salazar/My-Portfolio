@@ -1,0 +1,137 @@
+.curriculum {
+  margin-top: 50;
+  padding: 40px 300px 100px 10px;
+}
+
+.port {
+  margin-left: 0%;
+}
+
+.port img {
+  width: 250px;
+  height: auto;
+  border-radius: 10%;
+  margin-left: 14%;
+}
+
+.port h2  {
+  color:dodgerblue;
+  font-size: 47px;
+  display: i;
+  margin-left: 4%;
+  font-family: 'Passion One', cursive;
+  padding-right: 1%;
+  padding-top: 10px;
+}
+.port p {
+  font-size:  20px;
+  margin-left: 20%;
+  margin-top: 6px;
+  font-family: 'Acme', sans-serif;
+}
+
+.icons {
+  margin-top: 10px;
+  padding-left: 26%;
+}
+.icons a {
+  padding-right: 5%;
+}
+
+.idioma {
+  margin-left: 20%;
+  padding-top: 7%;
+}
+
+.idioma h2 {
+  color:dodgerblue;
+  font-size: 28px;
+  font-family: 'Passion One', cursive;
+  margin-bottom: 1%;
+}
+
+.idioma p {
+  font-family: 'Acme', sans-serif;
+  padding-top: 7px;
+  margin-left: 1%;
+}
+
+.tecno {
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+.tecno h2 {
+  color:dodgerblue;
+  font-size: 28px;
+  font-family: 'Passion One', cursive;
+  margin-bottom: 1%;
+}
+.tecno p {
+  font-family: 'Acme', sans-serif;
+  padding-top: 7px;
+  margin-left: 1%;
+}
+
+.skills {
+  margin-right: 0% ;
+  margin-bottom: 10%;
+  margin-left: auto;
+  padding-left: 0px;
+}
+
+.skills h2 {
+  color:dodgerblue;
+  font-family: 'Passion One', cursive;
+  margin-bottom: 1%;
+  font-size: 30px;
+}
+.skills p {
+  font-family: 'Acme', sans-serif;
+  padding-top: 7px;
+  margin-left: 1%;
+}
+.academy-expe {
+  padding: 0px 0px 0px 60px ;
+
+}
+
+.academy {
+  margin-left: 5%;
+  padding-left: 6%;
+  margin-bottom: 45px;
+  margin-top: 4%;
+}
+
+.academy h2 {
+  color:dodgerblue;
+  font-family: 'Passion One', cursive;
+  margin-bottom: 5%;
+  font-size: 28px;
+}
+
+.academy p {
+  font-family: 'Acme', sans-serif;
+  padding-top: 7px;
+  margin-left: 1%;
+}
+
+.expe {
+  margin-left: 5%;
+  padding-left: 6%;
+  margin-bottom: 45px;
+  margin-top: 4%;
+}
+
+.expe h2 {
+  color:dodgerblue;
+  font-family: 'Passion One', cursive;
+  margin-bottom: 5%;
+  font-size: 30px;
+}
+
+.expe p {
+  font-family: 'Acme', sans-serif;
+  padding-top: 7px;
+  margin-left: 1%;
+}
