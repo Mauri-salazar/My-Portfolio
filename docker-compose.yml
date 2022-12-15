@@ -3,8 +3,8 @@ version: "3.7"
 services:
   react-portfolio:
     environment:
-      VIRTUAL_HOST: mauricisalzar.dev, www.mauricisalzar.dev
-      LETSENCRYPT_HOST: mauricisalzar.dev, www.mauricisalzar.dev
+      VIRTUAL_HOST: mauriciosalzar.dev, www.mauriciosalzar.dev
+      LETSENCRYPT_HOST: mauriciosalzar.dev, www.mauriciosalzar.dev
       LETSENCRYPT_EMAIL: maurisa2004@gmail.com
       VIRTUAL_PORT: 3000
     build:
