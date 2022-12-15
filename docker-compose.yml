@@ -1,0 +1,26 @@
+version: "3.7"
+
+services:
+  react-portfolio:
+    environment:
+      VIRTUAL_HOST: mauricisalzar.dev, www.mauricisalzar.dev
+      LETSENCRYPT_HOST: mauricisalzar.dev, www.mauricisalzar.dev
+      LETSENCRYPT_EMAIL: maurisa2004@gmail.com
+      VIRTUAL_PORT: 3000
+    build:
+      context: .
+      dockerfile: Dockerfile
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
+      # - 80:3500
+    container_name: react-portfolio
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
