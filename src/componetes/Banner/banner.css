@@ -1,6 +1,6 @@
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 100px 0 170px 0;
 
 }
 .banner .tagline {
@@ -15,7 +15,7 @@
 }
 .banner h1 {
   font-size: 65px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
@@ -36,6 +36,7 @@
   font-size: 25px;
   margin-top: 60px;
   letter-spacing: 0.8px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
 }

@@ -10,7 +10,7 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
-nav.navbar.scrolled {
+ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
@@ -21,8 +21,8 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  padding: 0 25px;
-  font-size: 18px;
+  padding: 0 35px;
+  font-size: 20px;
   opacity: 0.75;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -106,7 +106,7 @@ span.navbar-text {
 }
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
-	outline: none;
+	  outline: none;
     box-shadow: none;
 }
 nav.navbar .navbar-toggler-icon {

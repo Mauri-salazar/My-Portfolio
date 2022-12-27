@@ -1,5 +1,5 @@
 .project {
-  padding: 80px 0;
+  padding: 100px ;
   position: relative;
   background-color: black;
 }
@@ -12,20 +12,21 @@
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px auto 30px auto;
+  line-height: 1.6em;
+  margin: 16px auto 30px auto;
   text-align: center;
-  width: 56%;
+  width: 59%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 69%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 740px;
+  border-radius: 50px;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;

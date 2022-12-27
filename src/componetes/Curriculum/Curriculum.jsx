@@ -16,8 +16,8 @@ export const Curriculum = () => {
               <div className="port">
                 <img src={Myfto} alt="Img not found"  />
                 <h2>Mauricio Salazar </h2>
-                  <p>*Full Stack Developer </p>
-                  <p> *Tucuman , Argentina </p>
+                  <p>* Full Stack Developer </p>
+                  <p> * Tucuman , Argentina </p>
               </div>
               <div className="icons">
                 <a href='https://www.linkedin.com/in/mauricio-alexandro-salazar-acu%C3%B1a-a402a5247/'><i className="bi bi-linkedin"></i></a>

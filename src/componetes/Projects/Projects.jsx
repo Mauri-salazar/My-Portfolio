@@ -12,38 +12,38 @@ import './projects.css';
 
 export const Projects = () => {
 
-  const projects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-  ];
+  // const projects = [
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg1,
+  //   },
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg2,
+  //   },
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg3,
+  //   },
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg1,
+  //   },
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg2,
+  //   },
+  //   {
+  //     title: "Business Startup",
+  //     description: "Design & Development",
+  //     imgUrl: projImg3,
+  //   },
+  // ];
 
   return (
     <section  className='project' id='projects'>
@@ -53,11 +53,11 @@ export const Projects = () => {
             <TrackVisibility>
               { ({isVisible}) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2>Projects</h2>
-                    <p>Builds the app for production to the build folder.
+                    <h2>Proyectos</h2>
+                    <p>estos son mis Proyectos
                     It correctly bundles React in production mode and optimizes the build for the best performance.</p>
                     <Tab.Container id='projects-tabs' defaultActiveKey='first'>
-                      <Nav variant='pills' className='className="nav-pills mb-5 justify-content-center align-items-center' id="pills-tab">
+                      <Nav variant='pills' className='className="nav-pills mb-5 justify-content-center align-items-center"' id="pills-tab">
                         <Nav.Item>
                           <Nav.Link eventKey='first'>tab 1</Nav.Link>
                         </Nav.Item>
@@ -65,16 +65,7 @@ export const Projects = () => {
                       <Tab.Content>
                         <Tab.Pane eventKey='first'>
                           <Row>
-                            {
-                              projects.map((project, index) => {
-                                return (
-                                  <ProjectCard
-                                    key={index}
-                                    {...project}
-                                  />
-                                )
-                              })
-                            }
+
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey='second'>
@@ -95,3 +86,15 @@ export const Projects = () => {
     </section>
   )
 };
+
+
+// {
+//   projects.map((project, index) => {
+//     return (
+//       <ProjectCard
+//         key={index}
+//         {...project}
+//       />
+//     )
+//   })
+// }

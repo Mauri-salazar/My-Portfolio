@@ -16,7 +16,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Full Stack Developer" , "JavaScript" , "React" , "Redux" , "Node" , "Express"]
+  const toRotate = [ "software", "Developer" , "front-end", "back-end"]
   const period = 200;
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export const Banner = () => {
     },delta);
 
     return () => { clearInterval(ticker) };
-  }, [text]);
+  },);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -57,7 +57,7 @@ export const Banner = () => {
                 { ({isVisible}) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <span className='tagline'>Bienvenido a mi Portafolio</span>
-                    <h1>{`¡Hola! Soy Mauricio`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer" , "JavaScript" , "React" , "Redux" , "Node" , "Express"]'><span className="wrap">{text}</span></span></h1>
+                    <h1>{`¡Hola! Soy Mauricio`} <span className="txt-rotate" dataPeriod="1000" data-rotate='["software","developer" , "front-end", "back-end"]'><span className="wrap">{text}</span></span></h1>
                     <p>¿Quien soy?
                     - Desarrollador Full Stack, con conocimientos aplicables a proyectos webs, a realizarse de forma escalable y modularizados para optimizar de mejor manera el trabajo en equipo..
                     </p>

@@ -16,9 +16,9 @@
 
 .port h2  {
   color:dodgerblue;
-  font-size: 47px;
+  font-size: 30px;
   display: i;
-  margin-left: 4%;
+  margin-left: 55px;
   font-family: 'Passion One', cursive;
   padding-right: 1%;
   padding-top: 10px;
@@ -27,12 +27,12 @@
   font-size:  20px;
   margin-left: 20%;
   margin-top: 6px;
-  font-family: 'Acme', sans-serif;
-}
+  font-family: 'Passion One', cursive;}
 
 .icons {
   margin-top: 10px;
-  padding-left: 26%;
+  padding-left: 36%;
+  font-size: 20px;
 }
 .icons a {
   padding-right: 5%;
@@ -45,14 +45,15 @@
 
 .idioma h2 {
   color:dodgerblue;
-  font-size: 28px;
+  font-size: 20px;
   font-family: 'Passion One', cursive;
   margin-bottom: 1%;
 }
 
 .idioma p {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Passion One', cursive;
   padding-top: 7px;
+font-size: 17px;
   margin-left: 1%;
 }
 
@@ -63,13 +64,13 @@
 }
 .tecno h2 {
   color:dodgerblue;
-  font-size: 28px;
+  font-size: 20px;
   font-family: 'Passion One', cursive;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
 }
 .tecno p {
-  font-family: 'Acme', sans-serif;
-  padding-top: 7px;
+  font-family: 'Passion One', cursive;
+  padding-top: 9px;
   margin-left: 1%;
 }
 
@@ -83,16 +84,16 @@
 .skills h2 {
   color:dodgerblue;
   font-family: 'Passion One', cursive;
-  margin-bottom: 1%;
-  font-size: 30px;
+  margin-bottom: 5%;
+  font-size: 20px;
 }
 .skills p {
-  font-family: 'Acme', sans-serif;
-  padding-top: 7px;
+  font-family: 'Passion One', cursive;
+  padding-top: 9px;
   margin-left: 1%;
 }
 .academy-expe {
-  padding: 0px 0px 0px 60px ;
+  padding: 10px 0px 10px 50px ;
 
 }
 
@@ -100,18 +101,18 @@
   margin-left: 5%;
   padding-left: 6%;
   margin-bottom: 45px;
-  margin-top: 4%;
+  margin-top: 1%;
 }
 
 .academy h2 {
   color:dodgerblue;
   font-family: 'Passion One', cursive;
   margin-bottom: 5%;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .academy p {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Passion One', cursive;
   padding-top: 7px;
   margin-left: 1%;
 }
@@ -119,19 +120,122 @@
 .expe {
   margin-left: 5%;
   padding-left: 6%;
-  margin-bottom: 45px;
-  margin-top: 4%;
+  margin-bottom: 50px;
+  margin-top: 10%;
 }
 
 .expe h2 {
   color:dodgerblue;
   font-family: 'Passion One', cursive;
   margin-bottom: 5%;
-  font-size: 30px;
+  padding-top: 35px;
+  font-size: 20px;
 }
 
 .expe p {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Passion One', cursive;
   padding-top: 7px;
+  padding-bottom: 10px;
   margin-left: 1%;
+}
+ /* 405px  */
+@media (max-width: 1213px) {
+  .curriculum {
+    padding: 90px 100px 100px 10px;
+  }
+
+  .port {
+    margin-left: 0%;
+  }
+
+  .port img {
+    margin-left: 0px;
+  }
+  .port h2  {
+    margin-left: 0px;
+    margin-bottom: 1%;
+    font-size: 30px;
+  }
+  .port p {
+    padding-top: 7px;
+    margin-left: 0px;
+  }
+  .icons {
+    font-size: 25px;
+    margin-top: 10px;
+    padding-left: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .icons a {
+    padding-right: 6%;
+  }
+
+  .idioma {
+    margin-left: 1px;
+    padding-top: 8%;
+    padding-bottom: 18px;
+  }
+
+  .tecno {
+    margin-bottom: 20px;
+  }
+  .tecno h2 {
+    font-size: 20px;
+  }
+  .tecno p {
+    padding-top: 10px;
+  }
+
+  .skills {
+    margin-right: 0% ;
+    margin-bottom: 10%;
+    margin-left: auto;
+    padding-left: 0px;
+  }
+
+  .skills h2 {
+    margin-bottom: 2%;
+    font-size: 20px;
+  }
+  .skills p {
+    padding-top: 10px;
+  }
+  .academy-expe {
+    padding: 0px 0px 0px 0px ;
+
+  }
+
+  .academy {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-bottom: 30px;
+  }
+
+  .academy h2 {
+    margin-bottom: 6%;
+    font-size: 20px;
+  }
+
+  .academy p {
+    padding-top: 10px;
+    margin-left: 1%;
+  }
+
+  .expe {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-bottom: 45px;
+    margin-top: 4%;
+  }
+
+  .expe h2 {
+    margin-bottom: 5%;
+    font-size: 20px;
+  }
+
+  .expe p {
+    padding-top: 17px;
+    margin-left: 1%;
+  }
 }
