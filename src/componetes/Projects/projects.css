@@ -1,7 +1,6 @@
 .project {
-  padding: 100px ;
+  padding: 100px  0 100px 0;
   position: relative;
-  background-color: black;
 }
 .project h2 {
 	font-size: 45px;

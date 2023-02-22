@@ -11,8 +11,6 @@ import 'animate.css';
 export const Contact = () => {
 
   const [buttonText, setButtonText] = useState('Enviar');
-  const [input, setInput] = useState('');
-
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -31,7 +29,11 @@ export const Contact = () => {
           <Col md={6}>
             <TrackVisibility>
               { ({ isVisible }) =>
-                  <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                  <img
+                    className={isVisible ? "animate__animated animate__zoomIn" : ""}
+                    src={contactImg}
+                    alt="Contact Us"
+                  />
               }
             </TrackVisibility>
           </Col>
@@ -43,19 +45,44 @@ export const Contact = () => {
                     <form onSubmit={handleSubmit}>
                       <Row>
                       <Col size={12} sm={6} className="px-1">
-                        <input type="text" placeholder="Primer Nombre" name='user_name' autoComplete='off' />
+                        <input
+                          type="text"
+                          placeholder="Primer Nombre"
+                          name='user_name'
+                          autoComplete='off'
+                        />
                       </Col>
                       <Col size={12} sm={6} className="px-1">
-                        <input type="text"  placeholder="Apellido" name='user_last_name' autoComplete='off'/>
+                        <input
+                          type="text"
+                          placeholder="Apellido"
+                          name='user_last_name'
+                          autoComplete='off'
+                        />
                       </Col>
                       <Col size={12} sm={6} className="px-1">
-                        <input type="email" placeholder="Correo Electronico"  name='user_email' autoComplete='off'/>
+                        <input
+                          type="email"
+                          placeholder="Correo Electronico"
+                          name='user_email'
+                          autoComplete='off'
+                        />
                       </Col>
                       <Col size={12} sm={6} className="px-1">
-                        <input type="tel" placeholder="Telefono"  name='user_phone' autoComplete='off' />
+                        <input
+                          type="tel"
+                          placeholder="Telefono"
+                          name='user_phone'
+                          autoComplete='off'
+                        />
                       </Col>
                       <Col size={12} className="px-1">
-                        <textarea rows="6"  placeholder="Motivo de Contacto" name='user_message'></textarea>
+                        <textarea
+                          rows="6"
+                          placeholder="Motivo de Contact"
+                          name='user_message'
+                        >
+                        </textarea>
                         <button type="submit"><span>{buttonText}</span></button>
                       </Col>
                     </Row>

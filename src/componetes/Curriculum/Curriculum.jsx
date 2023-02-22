@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import { Col, Container , Row } from "react-bootstrap";
 import Myfto from "../../assets/img/MYFOTO.jpeg";
 import MyCv from "../../assets/cv/CV_Mauricio_Salazar_Web_Developer.pdf"
 
@@ -21,9 +21,9 @@ export const Curriculum = () => {
               </div>
               <div className="icons">
                 <a href='https://www.linkedin.com/in/mauricio-alexandro-salazar-acu%C3%B1a-a402a5247/'><i className="bi bi-linkedin"></i></a>
-                <a href='https://github.com/Mauri-salazar'><i class="bi bi-github"></i></a>
-                <a href='https://mail.google.com/mail/u/1/#inbox'><i class="bi bi-envelope-fill"></i></a>
-                <a href={MyCv} download='cv.pdf'><i class="bi bi-filetype-pdf"></i></a>
+                <a href='https://github.com/Mauri-salazar'><i className="bi bi-github"></i></a>
+                <a href='https://mail.google.com/mail/u/1/#inbox'><i className="bi bi-envelope-fill"></i></a>
+                <a href={MyCv} download='cv.pdf'><i className="bi bi-filetype-pdf"></i></a>
               </div>
               <div className="idioma">
                 <h2>IDIOMAS</h2>
