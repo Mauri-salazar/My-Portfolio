@@ -22,7 +22,7 @@ body {
   color:dodgerblue;
   font-size: 30px;
   display: i;
-  margin-left: 55px;
+  margin-left: 70px;
   font-family: 'Passion One', cursive;
   padding-right: 1%;
   padding-top: 10px;
@@ -35,7 +35,7 @@ body {
 
 .icons {
   margin-top: 10px;
-  padding-left: 36%;
+  padding-left: 16%;
   font-size: 20px;
 }
 .icons a {
@@ -57,7 +57,7 @@ body {
 .idioma p {
   font-family: 'Passion One', cursive;
   padding-top: 7px;
-font-size: 17px;
+  font-size: 17px;
   margin-left: 1%;
 }
 

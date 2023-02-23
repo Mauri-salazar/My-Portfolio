@@ -37,3 +37,14 @@
   width: 40%;
   z-index: -4;
 }
+
+@media (max-width:500px) {
+.skill h2 {
+  font-size: 40px;
+}
+
+.skill-bx {
+  margin-left: 2%;
+  width: 100%;
+}
+}

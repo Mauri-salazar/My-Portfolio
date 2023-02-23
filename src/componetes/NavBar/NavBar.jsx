@@ -23,9 +23,9 @@ export const NavBar = () => {
     }
 
 
-    window.addEventListener('scroll',onScroll);//cuando el desplazamiento del usuario sea mayor al 50 % de la pantalla se ejecutara la funcion onScroll
+    window.addEventListener('scroll',onScroll);
 
-    return window.removeEventListener('scroll',onScroll);//si el despalazamiento vuelve haci atras se removera la funcion
+    return window.removeEventListener('scroll',onScroll);
   }, []);
 
   const onUpdateActiveLink = (value) => {

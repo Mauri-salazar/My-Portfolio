@@ -66,3 +66,13 @@
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+
+
+@media (max-width:500px) {
+  .banner h1 {
+    font-size: 50px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+}
