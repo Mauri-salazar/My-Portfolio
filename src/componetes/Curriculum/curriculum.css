@@ -7,6 +7,14 @@ body {
   padding: 40px 300px 100px 10px;
 }
 
+.curriculum p {
+  font-weight: 500;
+}
+
+.curriculum h2 {
+  font-weight: 700;
+}
+
 .port {
   margin-left: 0%;
 }
@@ -157,8 +165,9 @@ body {
   }
   .port h2  {
     margin-left: 0px;
-    margin-bottom: 1%;
-    font-size: 30px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-size: 24px;
   }
   .port p {
     padding-top: 7px;

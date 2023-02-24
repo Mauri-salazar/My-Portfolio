@@ -6,7 +6,7 @@ import emailJs from '@emailjs/browser'
 
 import './contact.css';
 import 'animate.css';
-
+import { FormattedMessage } from 'react-intl';
 
 export const Contact = () => {
 
@@ -41,13 +41,13 @@ export const Contact = () => {
             <TrackVisibility>
               { ({isVisible}) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <h2>Contacta Conmigo</h2>
+                    <h2><FormattedMessage id='app.contact.title' /></h2>
                     <form onSubmit={handleSubmit}>
                       <Row>
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="text"
-                          placeholder="Primer Nombre"
+                          placeholder="Firts name"
                           name='user_name'
                           autoComplete='off'
                         />
@@ -55,7 +55,7 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="text"
-                          placeholder="Apellido"
+                          placeholder="Last name"
                           name='user_last_name'
                           autoComplete='off'
                         />
@@ -63,7 +63,7 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="email"
-                          placeholder="Correo Electronico"
+                          placeholder="Email"
                           name='user_email'
                           autoComplete='off'
                         />
@@ -71,7 +71,7 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="tel"
-                          placeholder="Telefono"
+                          placeholder="Phone"
                           name='user_phone'
                           autoComplete='off'
                         />
@@ -79,7 +79,7 @@ export const Contact = () => {
                       <Col size={12} className="px-1">
                         <textarea
                           rows="6"
-                          placeholder="Motivo de Contact"
+                          placeholder="Account reason contact"
                           name='user_message'
                         >
                         </textarea>

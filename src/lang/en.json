@@ -1,0 +1,51 @@
+{
+  "app.navbar.home":"Home",
+  "app.navbar.skills":"Skills",
+  "app.navbar.projects":"Projects",
+  "app.navbar.resume":"Resume",
+  "app.navbar.contact":"Contact",
+
+
+  "app.banner.title":"Welcome my portfolio",
+  "app.banner.name":"¡Hello!, I'm Mauricio.",
+  "app.banner.role":"Full Stack Developer",
+  "app.banner.description":"Who I am ? -Full Stack Developer , with knowledge applicable to web projects, to be carriet out in a scalable and modularized way to better optimize teamwork",
+  "app.banner.contact":"Contact",
+
+  "app.skills.title":"My skills",
+  "app.skills.description":"• Front-end: JavaScript, React, Redux, HTML, CSS.• Back-end: JavaScript, Node, Express.• Base de datos: SQL, PostgreSQL, Sequelize.• Desarrollo colaborativo: Git, GitHub.• Sistemas operativos: Windows, Linux.",
+
+
+
+  "app.resume.role":"* Full Stack Developer",
+
+  "app.resume.languageTitle":"LANGUAGES",
+  "app.resume.languageOne":"* Inglish",
+  "app.resume.lenguageTwo":"* Spanish",
+
+  "app.resume.technologiesTitle":"TECHNOLOGIES",
+  "app.resume.technologiesOne":"* HTML / Node Js",
+  "app.resume.technologiesTwo":"* CSS / Express",
+  "app.resume.technologiesThree":"* JavaScript / Sequelize",
+  "app.resume.technologiesFour":"* Typescript / React",
+  "app.resume.technologiesFive":"* Redux / PostgreSql",
+  "app.resume.technologiesSix":"* Bootstrap",
+
+  "app.resume.skillsTitle":"SKILLS",
+  "app.resume.skillsOne":"* Continuous learning",
+  "app.resume.skillsTwo":"* Growth mindset",
+  "app.resume.skillsThree":"* Teamwork",
+  "app.resume.skillsFour":"* Work in multicultural environments",
+
+  "app.resume.academyTitle":"ACADEMIC TRAINING",
+  "app.resume.academyOne":"* Full Stack Web Developer Henry 2021-2022-Bootcam with more than 800 hours of theoretical-practical course",
+  "app.resume.academyTwo":"* Currently Platzi student. (Full stack development and English)",
+
+  "app.resume.experienceTitle":"WORK EXPERIENCE",
+  "app.resume.experienceOne":"* Henry Bootcam-Teach Assist 01-2022/05-2022, Buenos Aires, Argentina. Coordinate the attendance of the students during their tour in the bootcamp, plan, develop activities and resolve doubts. Development of internal tools.",
+  "app.resume.experienceTwo":"* Freelance jobs, creation of portfolios and web pages with back-end and front-end.",
+
+  "app.contact.title":"Contact me"
+
+
+}

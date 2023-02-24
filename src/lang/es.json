@@ -1,0 +1,51 @@
+{
+  "app.navbar.home":"Inicio",
+  "app.navbar.skills":"Habilidades",
+  "app.navbar.projects":"Proyectos",
+  "app.navbar.resume":"Curriculum",
+  "app.navbar.contact":"Contactame",
+
+
+  "app.banner.title":"Bienvenido a mi Portafolio",
+  "app.banner.name":"¡Hola! Soy Mauricio",
+  "app.banner.role":"Desarrollador Full Stack",
+  "app.banner.description":"¿Quien soy?- Desarrollador Full Stack, con conocimientos aplicables a proyectos webs, a realizarse de forma escalable y modularizados para optimizar de mejor manera el trabajo en equipo.",
+  "app.banner.contact":"Contactame",
+
+  "app.skills.title":"Mis Habilidades",
+  "app.skills.description":"• Front-end: JavaScript, React, Redux, HTML, CSS.• Back-end: JavaScript, Node, Express.• Base de datos: SQL, PostgreSQL, Sequelize.• Desarrollo colaborativo: Git, GitHub.• Sistemas operativos: Windows, Linux.",
+
+
+
+  "app.resume.role":"* Desarrollador Full Stack",
+
+  "app.resume.languageTitle":"IDIOMAS",
+  "app.resume.languageOne":"Ingles",
+  "app.resume.lenguageTwo":"Español",
+
+  "app.resume.technologiesTitle":"TECNOLOGIAS",
+  "app.resume.technologiesOne":"* HTML / Node Js",
+  "app.resume.technologiesTwo":"* CSS / Express",
+  "app.resume.technologiesThree":"* JavaScript / Sequelize",
+  "app.resume.technologiesFour":"* Typescript / React",
+  "app.resume.technologiesFive":"* Redux / PostgreSql",
+  "app.resume.technologiesSix":"* Bootstrap",
+
+  "app.resume.skillsTitle":"HABILIDADES",
+  "app.resume.skillsOne":"* Aprendizaje continuo",
+  "app.resume.skillsTwo":"* Comunicación efectiva",
+  "app.resume.skillsThree":"* Trabajo en equipo",
+  "app.resume.skillsFour":"* Trabajo en entorno multiculturales",
+
+  "app.resume.academyTitle":"Academic training",
+  "app.resume.academyOne":"* Full Stack Web Developer Henry 2021-2022-Bootcam with more than 800 hours of theoretical-practical course",
+  "app.resume.academyTwo":"Currently Platzi student. (Full stack development and English)",
+
+  "app.resume.experienceTitle":"Work experience",
+  "app.resume.experienceOne":"Henry Bootcam-Teach Assist 01-2022/05-2022, Buenos Aires, Argentina. Coordinate the attendance of the students during their tour in the bootcamp, plan, develop activities and resolve doubts. Development of internal tools.",
+  "app.resume.experienceTwo":"* Mainly in the academic field. I study the systems career where I learned very good bases in algorithms and in the management of data structures.",
+
+
+  "app.contact.title":"Contactame"
+
+}

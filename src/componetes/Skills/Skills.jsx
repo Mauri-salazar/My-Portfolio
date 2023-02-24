@@ -17,6 +17,9 @@ import skill12 from '../../assets/imgSkills/github.svg';
 import colorfon from '../../assets/img/color-sharp.png';
 
 import './skills.css';
+import { formatMessage } from "@formatjs/intl";
+import { FormattedMessage } from "react-intl";
+
 
 export const Skills = () => {
 
@@ -46,13 +49,8 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Mis Habilidades</h2>
-              <p>• Front-end: JavaScript, React, Redux, HTML, CSS.
-                • Back-end: JavaScript, Node, Express.
-                • Base de datos: SQL, PostgreSQL, Sequelize.
-                • Desarrollo colaborativo: Git, GitHub.
-                • Sistemas operativos: Windows, Linux.
-              </p>
+              <h2><FormattedMessage id='app.skills.title'/></h2>
+              <p><FormattedMessage id='app.skills.description'/></p>
               <Carousel responsive={responsive} infinite={true} className='owl-carousel owl-theme skill-slider'>
                 <div className="item">
                   <img src={skill1} alt="not found img" />
