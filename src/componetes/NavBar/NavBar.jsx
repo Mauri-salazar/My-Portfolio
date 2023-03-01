@@ -70,13 +70,7 @@ export const NavBar = () => {
                           >
                             <FormattedMessage id='app.navbar.skills' />
                           </Nav.Link>
-                          <Nav.Link
-                            href="#projects"
-                            className={ activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
-                            onClick={ () => onUpdateActiveLink('projects')}
-                          >
-                            <FormattedMessage id='app.navbar.projects' />
-                          </Nav.Link>
+
                           <Nav.Link
                             href="#curriculum"
                             className={ activeLink === 'Curriculum' ? 'active navbar-link' : 'navbar-link'}
@@ -101,3 +95,10 @@ export const NavBar = () => {
     </Router>
   );
 }
+    //  <Nav.Link
+    //   href="#projects"
+    //   className={ activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
+    //   onClick={ () => onUpdateActiveLink('projects')}
+    // >
+    //   <FormattedMessage id='app.navbar.projects' />
+    // </Nav.Link>
