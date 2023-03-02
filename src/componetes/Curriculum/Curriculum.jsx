@@ -5,7 +5,6 @@ import Myfto from "../../assets/img/MYFOTO.jpeg";
 import MyCv from "../../assets/cv/CV_Mauricio_Salazar_Web_Developer.pdf"
 
 import './curriculum.css';
-import { formatMessage } from "@formatjs/intl";
 import { FormattedMessage } from "react-intl";
 
 
