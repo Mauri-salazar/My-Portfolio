@@ -20,8 +20,8 @@
   "app.resume.role":"* Desarrollador Full Stack",
 
   "app.resume.languageTitle":"IDIOMAS",
-  "app.resume.languageOne":"Ingles",
-  "app.resume.lenguageTwo":"Español",
+  "app.resume.languageOne":"* Ingles",
+  "app.resume.lenguageTwo":"* Español",
 
   "app.resume.technologiesTitle":"TECNOLOGIAS",
   "app.resume.technologiesOne":"* HTML / Node Js",
@@ -37,11 +37,11 @@
   "app.resume.skillsThree":"* Trabajo en equipo",
   "app.resume.skillsFour":"* Trabajo en entorno multiculturales",
 
-  "app.resume.academyTitle":"Academic training",
-  "app.resume.academyOne":"* Full Stack Web Developer Henry 2021-2022-Bootcam with more than 800 hours of theoretical-practical course",
-  "app.resume.academyTwo":"Currently Platzi student. (Full stack development and English)",
+  "app.resume.academyTitle":"FORMACION ACADEMICA",
+  "app.resume.academyOne":"* Full Stack Web Developer Henry 2021-2022-Bootcam con más de 800 horas de curso teórico-práctico",
+  "app.resume.academyTwo":"* Actualmente  alumno en platzi estudiando en la escuela de desarrollo web https://platzi.com/escuela/escuela-web/",
 
-  "app.resume.experienceTitle":"Work experience",
+  "app.resume.experienceTitle":"EXPERIENCIA LABORAL",
   "app.resume.experienceOne":"Henry Bootcam-Teach Assist 01-2022/05-2022, Buenos Aires, Argentina. Coordinar la asistencia de los alumnos durante su recorrido en el bootcamp, planificar, desarrollar actividades y resolver dudas. Desarrollo de herramientas internas.",
   "app.resume.experienceTwo":"*Trabajos freelance, creación de portafolios y páginas web con back-end y front-end.",
 
