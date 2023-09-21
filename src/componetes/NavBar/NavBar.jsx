@@ -76,14 +76,14 @@ export const NavBar = () => {
                             className={ activeLink === 'Curriculum' ? 'active navbar-link' : 'navbar-link'}
                             onClick={ () => onUpdateActiveLink('Curriculum')}
                           >
-                            <FormattedMessage id='app.navbar.projects' />
+                            <FormattedMessage id='app.navbar.resume' />
                           </Nav.Link>
-                          <Nav.Link
+                          <Nav.Link   
                             href="#projects"
                             className={ activeLink === 'Projects' ? 'active navbar-link' : 'navbar-link'}
                             onClick={ () => onUpdateActiveLink('Projects')}
                           >
-                            <FormattedMessage id='app.navbar.resume' />
+                            <FormattedMessage id='app.navbar.projects' />
                           </Nav.Link>
                   </Nav>
                   <span className='navbar-text'>

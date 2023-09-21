@@ -10,16 +10,16 @@ import { FormattedMessage } from 'react-intl';
 
 export const Contact = () => {
 
-  const [buttonText, setButtonText] = useState('Enviar');
+  const [buttonText, setButtonText] = useState('Send');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setButtonText('Enviando...');
+    setButtonText('Sending..');
 
-    emailJs.sendForm('service_jar12r5','template_m2uxd6j',e.target,'udLtDZ_TCph6lDgpr')
+    emailJs.sendForm('service_yno5xlh','template_m2uxd6j',e.target,'udLtDZ_TCph6lDgpr')
     .then( response => console.log(response) )
     .catch(error => console.log(error))
-    setButtonText('Enviado');
+    setButtonText('Send');
   };
 
   return (

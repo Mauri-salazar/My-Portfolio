@@ -1,13 +1,13 @@
-.project {
+.projects {
   padding: 100px  0 100px 0;
   position: relative;
 }
-.project h2 {
+.projects h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
-.project p {
+.projects p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -16,18 +16,18 @@
   text-align: center;
   width: 59%;
 }
-.project .nav.nav-pills {
+.projects .nav.nav-pills {
   width: 69%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
-.project .nav.nav-pills .nav-item {
+.projects .nav.nav-pills .nav-item {
   width: 740px;
   border-radius: 50px;
 }
-.project .nav.nav-pills .nav-link {
+.projects .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -41,7 +41,7 @@
   text-align: center;
   z-index: 0;
 }
-.project .nav.nav-pills .nav-link::before {
+.projects .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
     width: 0;
@@ -52,10 +52,10 @@
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
-.project .nav.nav-pills .nav-link.active::before {
+.projects .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.project .nav.nav-pills .nav-link.active {
+.projects .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-first {
