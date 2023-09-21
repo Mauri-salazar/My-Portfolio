@@ -45,8 +45,8 @@ export const NavBar = () => {
               onChange={context.selectLanguage}
               className='int'
             >
-              <option value='en'>Inglish</option>
               <option value='es'>Spanish</option>
+              <option value='en'>English</option>
             </select>
 
             <Navbar.Brand href="#home" className='brand'>
@@ -75,6 +75,13 @@ export const NavBar = () => {
                             href="#curriculum"
                             className={ activeLink === 'Curriculum' ? 'active navbar-link' : 'navbar-link'}
                             onClick={ () => onUpdateActiveLink('Curriculum')}
+                          >
+                            <FormattedMessage id='app.navbar.projects' />
+                          </Nav.Link>
+                          <Nav.Link
+                            href="#projects"
+                            className={ activeLink === 'Projects' ? 'active navbar-link' : 'navbar-link'}
+                            onClick={ () => onUpdateActiveLink('Projects')}
                           >
                             <FormattedMessage id='app.navbar.resume' />
                           </Nav.Link>
