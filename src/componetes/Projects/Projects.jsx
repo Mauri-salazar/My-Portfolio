@@ -23,7 +23,13 @@ export const Projects = () => {
             <div>
               <img src='' alt=''/>
               <h2>Title first project</h2>
+              <p>description</p>
             </div>
+          </Col>
+          <Col>
+            <img src='' alt='' />
+            <h2>second </h2>
+            <p>description</p>
           </Col>
         </Row>
       </Container>
