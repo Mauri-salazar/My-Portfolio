@@ -48,7 +48,7 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="text"
-                          placeholder="First name"
+                          placeholder="Full name"
                           name='user_name'
                           autoComplete='off'
                         />
