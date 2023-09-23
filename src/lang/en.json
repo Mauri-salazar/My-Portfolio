@@ -47,7 +47,10 @@
 
   "app.projects.title":"Projects",
   "app.projects.info":"These are some of my projects in which I have meticulously applied the most advanced and effective techniques with the goal of achieving outstanding optimization and performance. Each of these projects reflects my commitment to excellence in web and mobile application development, where I have employed innovative strategies and best practices to ensure that the applications are efficient, fast, and capable of delivering the best user experience. My focus on optimization and performance not only results in smoother-running applications but also contributes to higher user satisfaction and, ultimately, project success.",
-
+  "app.projects.e-commerce.title": "E-commerce",
+  "app.projects.e-commerce.info": "This project was created with Vite Js + React Js and tailwind, it is the e-commerce.Shows the products, filters by category, Adds purchases to the card, Shows your selections products in the list, Seach the products -Shows the details of each product stylized with tailwind and dark mode added",
+  "app.projects.to-do-list.title": "To-Do-List",
+  "app.projects.to-do-list.info": "developed using HTML5, JavaScript, CSS and the React framework. This application focuses on state management, using local storage, and creating reusable components. My app is a task manager (or whatever other functionality I have implemented). Its goal is to allow users to organize and track their daily tasks efficiently.",
 
   "app.contact.title":"Contact me"
 

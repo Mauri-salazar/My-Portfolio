@@ -26,8 +26,8 @@ export const Projects = () => {
                 <a href='https://shopig-ecommerce.netlify.app/'><img src={E_commerce} alt=''/></a>
               </figure>
               <figcaption>
-                <h2>E-commerce</h2>
-                <p></p>
+                <h2><FormattedMessage  id='app.projects.e-commerce.title' /></h2>
+                <p><FormattedMessage id='app.projects.e-commerce.info' /></p>
               </figcaption>
             </div>
           </Col>
@@ -37,8 +37,8 @@ export const Projects = () => {
                   <a href=' https://mauri-salazar.github.io/to-do-list/'><img src={to_Do_List} alt=''/></a>
                 </figure>
                 <figcaption>
-                  <h2>To-Do-List</h2>
-                  <p></p>
+                  <h2><FormattedMessage id='app.projects.to-do-list.title' /></h2>
+                  <p><FormattedMessage id='app.projects.to-do-list.info' /></p>
                 </figcaption>
               </div>
           </Col>

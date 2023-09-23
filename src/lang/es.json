@@ -47,6 +47,10 @@
 
   "app.projects.title": "Proyectos",
   "app.projects.info":"Estos son algunos de mis proyectos en los que he aplicado cuidadosamente las técnicas más avanzadas y efectivas con el objetivo de lograr una optimización y un rendimiento excepcionales. Cada uno de estos proyectos representa mi compromiso con la excelencia en el desarrollo de aplicaciones web y móviles, donde he empleado estrategias innovadoras y buenas prácticas para garantizar que las aplicaciones sean eficientes, rápidas y capaces de ofrecer la mejor experiencia al usuario. Mi enfoque en la optimización y el rendimiento no solo se traduce en aplicaciones que funcionan de manera más fluida, sino que también contribuye a una mayor satisfacción del usuario y, en última instancia, al éxito del proyecto.",
+  "app.projects.e-commerce.title": "Carrito de compras",
+  "app.projects.e-commerce.info": "Este proyecto fue creado con Vite Js + React Js y tailwind, es el comercio electrónico.Mustra productos, filtra por categoria, Agrega compras al carrito, Muestra los productos seleccionados en el carrito, Busque los productos -Muestra los detalles de cada producto, estilizado con tailwind and dark mode added",
+  "app.projects.to-do-list.title":"Lista de Tareas",
+  "app.projects.to-do-list.info": "Desarrollado utilizando HTML5, JavaScript, CSS y el framework React. Esta aplicación se centra en el manejo de estados, la utilización del almacenamiento local (Local Storage) y la creación de componentes reutilizables.Mi aplicación es un gestor de tareas (o cualquier otra funcionalidad que hayas implementado). Su objetivo es permitir a los usuarios organizar y realizar un seguimiento de sus tareas diarias de manera eficiente.",
 
   "app.contact.title":"Contactame"
 
