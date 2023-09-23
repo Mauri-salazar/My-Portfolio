@@ -1,7 +1,8 @@
 import React from 'react';
 import { FormattedMessage } from "react-intl";
 import { Container , Row , Col , Tab , Nav } from 'react-bootstrap';
-import TrackVisibility from 'react-on-screen';
+import E_commerce from '../../assets/img/e-commerce.png';
+import to_Do_List from '../../assets/img/to-do-list.png';
 import imgFon from '../../assets/img/color-sharp2.png';
 
 import 'animate.css';
@@ -21,15 +22,25 @@ export const Projects = () => {
         <Row>
           <Col>
             <div>
-              <img src='' alt=''/>
-              <h2>Title first project</h2>
-              <p>description</p>
+              <figure>
+                <a href='https://shopig-ecommerce.netlify.app/'><img src={E_commerce} alt=''/></a>
+              </figure>
+              <figcaption>
+                <h2>E-commerce</h2>
+                <p></p>
+              </figcaption>
             </div>
           </Col>
           <Col>
-            <img src='' alt='' />
-            <h2>second </h2>
-            <p>description</p>
+            <div>
+                <figure>
+                  <a href=' https://mauri-salazar.github.io/to-do-list/'><img src={to_Do_List} alt=''/></a>
+                </figure>
+                <figcaption>
+                  <h2>To-Do-List</h2>
+                  <p></p>
+                </figcaption>
+              </div>
           </Col>
         </Row>
       </Container>
