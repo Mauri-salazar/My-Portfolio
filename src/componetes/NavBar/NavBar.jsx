@@ -1,4 +1,5 @@
 import 'bootstrap-icons/font/bootstrap-icons.css'
+import { FormattedMessage } from "react-intl";
 import { useContext, useEffect, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter  as Router } from 'react-router-dom';
@@ -7,7 +8,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import './navbar.css';
-import { FormattedMessage } from "react-intl";
 import { Context } from '../Wapper/Wapper';
 
 export const NavBar = () => {
