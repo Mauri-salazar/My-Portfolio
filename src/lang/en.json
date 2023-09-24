@@ -37,13 +37,13 @@
   "app.resume.skillsThree":"* Teamwork",
   "app.resume.skillsFour":"* Work in multicultural environments",
 
-  "app.resume.academyTitle":"ACADEMIC TRAINING",
+  "app.resume.academyTitle":"EDUCATION",
   "app.resume.academyOne":"* Full Stack Web Developer Henry 2021-2022-Bootcam with more than 800 hours of theoretical-practical course",
-  "app.resume.academyTwo":"* Currently a platzi student studying at the web development school https://platzi.com/escuela/escuela-web/",
+  "app.resume.academyTwo":"* Currently a platzi student studying at the web development school Platzi/Full stack developer 2022-2023",
 
   "app.resume.experienceTitle":"WORK EXPERIENCE",
-  "app.resume.experienceOne":"* Henry Bootcam-Teach Assist 01-2022/05-2022, Buenos Aires, Argentina. Coordinate the attendance of the students during their tour in the bootcamp, plan, develop activities and resolve doubts. Development of internal tools.",
-  "app.resume.experienceTwo":"* Freelance jobs, creation of portfolios and web pages with back-end and front-end.",
+  "app.resume.experienceOne":"* Henry Bootcam-Teach Assist 2021-2022, Coordinate the attendance of students during their trip in the bootcamp, planning, development of activities and resolution of doubts.Development of internal tool.",
+  "app.resume.experienceTwo":"* Quality Assurance 2023-2023 As a Quality Control Analyst (QA) at Expensify, I have ensured the quality and reliability of the expense management system for personal and business use. I conducted comprehensive tests of functionality, usability, security, and performance. I resolved minor issues and enhanced the user experience. I implemented robust security measures and demonstrated solid performance in high-demand situations.",
 
   "app.projects.title":"Projects",
   "app.projects.info":"These are some of my projects in which I have meticulously applied the most advanced and effective techniques with the goal of achieving outstanding optimization and performance. Each of these projects reflects my commitment to excellence in web and mobile application development, where I have employed innovative strategies and best practices to ensure that the applications are efficient, fast, and capable of delivering the best user experience. My focus on optimization and performance not only results in smoother-running applications but also contributes to higher user satisfaction and, ultimately, project success.",

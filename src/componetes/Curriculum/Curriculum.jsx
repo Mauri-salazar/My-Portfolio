@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Col, Container , Row } from "react-bootstrap";
-import Myfto from "../../assets/img/MYFOTO.jpeg";
+import My_fto from "../../assets/img/picture.png";
 import MyCv from "../../assets/cv/My cv Maurcio salazar .pdf"
 
 import './curriculum.css';
@@ -16,7 +16,7 @@ export const Curriculum = () => {
         <Row>
           <Col>
               <div className="port">
-                <img src={Myfto} alt="Img not found"  />
+                <img src={My_fto} alt="Img not found"  />
                 <h2>Mauricio Salazar </h2>
                   <p><FormattedMessage id="app.resume.role"/></p>
                   <p> * Tucuman , Argentina </p>
