@@ -14,14 +14,13 @@ export const Projects = () => {
   return (
     <section  className='projects' id='projects'>
       <Container>
-        <div>
+        <div className='presentation'>
           <h2><FormattedMessage id='app.projects.title'/></h2>
-          <p><FormattedMessage  id='app.projects.info'/></p>
-          
+          <p><FormattedMessage  id='app.projects.info'/></p>    
         </div>
-        <Row>
-          <Col>
-            <div>
+        <Row className='row'>
+          <Col className='col-6'>
+            <div className='e-commerce'>
               <figure>
                 <a href='https://shopig-ecommerce.netlify.app/'><img src={E_commerce} alt=''/></a>
               </figure>
@@ -31,8 +30,8 @@ export const Projects = () => {
               </figcaption>
             </div>
           </Col>
-          <Col>
-            <div>
+          <Col className='col-6'>
+            <div className='to-do-list'>
                 <figure>
                   <a href=' https://mauri-salazar.github.io/to-do-list/'><img src={to_Do_List} alt=''/></a>
                 </figure>
