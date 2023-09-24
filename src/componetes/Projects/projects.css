@@ -21,17 +21,51 @@
   padding-top: 40px;
   
 }
-
+.row h2 {
+  font-size: 300%;
+  font-family: 'Passion One', cursive;
+}
 .e-commerce {
-  width: 100%;
+  width: 100%;  
+  height: 100%;
   padding-right: 20px;
   border: 2px solid white;
-  height: 100%;
+}
+.e-commerce img {
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+.e-commerce div {
+  display: flex;
+  justify-content:center;
+}
+.icon-e-commerce {
+  color: aliceblue;
+  font-size: 200%;
+  padding: 0px 0px 0px 50%;
 }
 .to-do-list {
   width: 100%;
   height: 100%;
   padding-left: 20px;
     border: 2px solid white;
-
+}
+.to-do-list img {
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+.to-do-list div {
+  display: flex;
+  justify-content:center;
+}
+.icon-todo{
+  color: aliceblue;
+  font-size: 200%;
+  padding: 0px 0px 0px 50%;
 }

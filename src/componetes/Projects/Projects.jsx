@@ -1,6 +1,7 @@
 import React from 'react';
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage } from 'react-intl';
 import { Container , Row , Col , Tab , Nav } from 'react-bootstrap';
+import "bootstrap-icons/font/bootstrap-icons.css";
 import E_commerce from '../../assets/img/e-commerce.png';
 import to_Do_List from '../../assets/img/to-do-list.png';
 import imgFon from '../../assets/img/color-sharp2.png';
@@ -25,7 +26,10 @@ export const Projects = () => {
                 <a href='https://shopig-ecommerce.netlify.app/'><img src={E_commerce} alt=''/></a>
               </figure>
               <figcaption>
-                <h2><FormattedMessage  id='app.projects.e-commerce.title' /></h2>
+                <div>  
+                  <h2><FormattedMessage  id='app.projects.e-commerce.title' /></h2>
+                  <a href='https://github.com/Mauri-salazar/E-commerce-app'><i className="bi bi-github icon-e-commerce"></i></a>
+                </div>
                 <p><FormattedMessage id='app.projects.e-commerce.info' /></p>
               </figcaption>
             </div>
@@ -36,7 +40,10 @@ export const Projects = () => {
                   <a href=' https://mauri-salazar.github.io/to-do-list/'><img src={to_Do_List} alt=''/></a>
                 </figure>
                 <figcaption>
-                  <h2><FormattedMessage id='app.projects.to-do-list.title' /></h2>
+                  <div> 
+                    <h2><FormattedMessage id='app.projects.to-do-list.title' /></h2>
+                    <a href='https://github.com/Mauri-salazar/to-do-list'><i className="bi bi-github icon-todo"></i></a> 
+                  </div>
                   <p><FormattedMessage id='app.projects.to-do-list.info' /></p>
                 </figcaption>
               </div>
