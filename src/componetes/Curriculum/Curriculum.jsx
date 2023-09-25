@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Col, Container , Row } from "react-bootstrap";
 import My_fto from "../../assets/img/picture.png";
-import MyCv from "../../assets/cv/My cv Maurcio salazar .pdf"
+import MyCv from "../../assets/cv/cv.pdf"
 
 import './curriculum.css';
 import { FormattedMessage } from "react-intl";
