@@ -1,6 +1,5 @@
-import React from "react";
 import { FormattedMessage } from "react-intl";
-import { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter  as Router } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
