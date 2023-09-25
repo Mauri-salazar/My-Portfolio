@@ -1,8 +1,9 @@
-import 'bootstrap-icons/font/bootstrap-icons.css'
+import React from "react";
 import { FormattedMessage } from "react-intl";
 import { useContext, useEffect, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter  as Router } from 'react-router-dom';
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
